@@ -12,5 +12,6 @@ class MyGame : public gslib::Game {
 
 int main() {
 	std::cout << "‚Ï‚Á‚¿‚¡" << std::endl;
+	// aaaa
 	return MyGame().run();
 }
