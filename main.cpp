@@ -1,4 +1,5 @@
 #include <GSgame.h>
+#include <iostream>
 
 class MyGame : public gslib::Game {
 	void start() {
@@ -10,5 +11,6 @@ class MyGame : public gslib::Game {
 };
 
 int main() {
+	std::cout << "‚Ï‚Á‚¿‚¡" << std::endl;
 	return MyGame().run();
 }
