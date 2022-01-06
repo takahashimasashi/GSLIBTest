@@ -1,7 +1,7 @@
 * text=auto
 
 *.vcxproj merge=union
-*.vcxproj.filter merge=union
+*.vcxproj.filters merge=union
 
 # Unity files
 *.meta -text -merge=unityamlmerge

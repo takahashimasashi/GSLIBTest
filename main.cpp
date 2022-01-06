@@ -10,5 +10,6 @@ class MyGame : public gslib::Game {
 };
 
 int main() {
+	// aaaa
 	return MyGame().run();
 }
